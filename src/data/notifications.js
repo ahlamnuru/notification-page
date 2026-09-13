@@ -7,7 +7,7 @@ import avatarNathanPeterson from "../assets/images/avatar-nathan-peterson.webp";
 import avatarAnnaKim from "../assets/images/avatar-anna-kim.webp";
 import imageChess from "../assets/images/image-chess.webp";
 
-// this is just the starting data for all the notifications
+// this is just the starting data for all the notifications in the list
 // "unread" gets flipped to false once someone clicks the notification
 export const initialNotifications = [
   {
