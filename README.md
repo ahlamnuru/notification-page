@@ -41,3 +41,4 @@ Clicking a notification or the "mark all as read" button both work by updating t
 ### Continued development
 
 Next time i want to get more comfortable with things like relative timestamps updating automatically, and maybe try adding a small backend so the "read" status actually saves instead of resetting on refresh.
+That's it
