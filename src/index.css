@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-red-500: hsl(1, 90%, 64%);
+  --color-blue-950: hsl(219, 85%, 26%);
+  --color-navy-50: hsl(210, 60%, 98%);
+  --color-blue-100: hsl(211, 68%, 94%);
+  --color-navy-100: hsl(205, 33%, 90%);
+  --color-gray-500: hsl(219, 14%, 63%);
+  --color-gray-600: hsl(219, 12%, 42%);
+  --color-navy-950: hsl(224, 21%, 14%);
+}
+
+body {
+  font-family: var(--font-sans);
+}
